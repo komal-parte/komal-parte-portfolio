@@ -27,3 +27,7 @@ To view the website locally or make modifications, follow these steps:
 1. Clone the repository: `git clone [repository URL]`
 2. Open the project folder in your preferred code editor.
 3. Open the `index.html` file in a web browser to view the website.
+
+
+
+//checking
