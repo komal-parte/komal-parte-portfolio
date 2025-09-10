@@ -23,11 +23,23 @@
 /* .project-container {
   border: 1px solid red;
 } */
-.swiper-slide1 {
+/* .swiper-slide1 {
   background-color: rgb(11, 4, 28);
-  /* margin-top: 50px; */
+  width: 40%;
+} */
+:root {
+  --swiper-bg: #f5f5f5; /* default for light theme */
+}
+
+body.dark-theme {
+  --swiper-bg: rgb(11, 4, 28); /* dark theme color */
+}
+
+.swiper-slide1 {
+  background-color: var(--swiper-bg);
   width: 40%;
 }
+
 @media (max-width: 600px) {
   .swiper-slide1 {
     width: 100%;
